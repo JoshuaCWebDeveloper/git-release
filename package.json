@@ -1,0 +1,30 @@
+{
+  "name": "git-release",
+  "version": "0.0.0",
+  "description": "Library for creating and pushing a release via git",
+  "dependencies": {
+    "extend": "^3.0.2",
+    "jcscript": "^1.4.1",
+    "nodegit": "^0.23.0",
+    "q": "^1.5.1",
+    "yargs": "^12.0.4"
+  },
+  "devDependencies": {
+    "dev-tasks": "github:JoshuaCWebDeveloper/dev-tasks#9205955",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.3.0",
+    "gulp-util": "^3.0.8"
+  },
+  "scripts": {
+    "lint": "gulp lint",
+    "build": "gulp build",
+    "minify": "gulp minify",
+    "release": "gulp release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoshuaCWebDeveloper/git-release.git"
+  },
+  "author": "Joshua Carter",
+  "license": "MIT"
+}
